@@ -13,6 +13,8 @@
 		2B0A9D362A7B0C7000D76596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A9D342A7B0C7000D76596 /* Main.storyboard */; };
 		2B0A9D382A7B0C7200D76596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A9D372A7B0C7200D76596 /* Assets.xcassets */; };
 		2B0A9D3B2A7B0C7200D76596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A9D392A7B0C7200D76596 /* LaunchScreen.storyboard */; };
+		2B602AFD2A7C9D3900166F6F /* WeatherModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B602AFC2A7C9D3900166F6F /* WeatherModelClass.swift */; };
+		2B602B012A7CA68C00166F6F /* CitiesHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B602B002A7CA68C00166F6F /* CitiesHistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2B0A9D372A7B0C7200D76596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B0A9D3A2A7B0C7200D76596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B0A9D3C2A7B0C7200D76596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B602AFC2A7C9D3900166F6F /* WeatherModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModelClass.swift; sourceTree = "<group>"; };
+		2B602B002A7CA68C00166F6F /* CitiesHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesHistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				2B0A9D302A7B0C7000D76596 /* SceneDelegate.swift */,
 				2B0A9D322A7B0C7000D76596 /* DetailsViewController.swift */,
 				2B0A9D342A7B0C7000D76596 /* Main.storyboard */,
+				2B602B002A7CA68C00166F6F /* CitiesHistoryViewController.swift */,
 				2B0A9D372A7B0C7200D76596 /* Assets.xcassets */,
 				2B0A9D392A7B0C7200D76596 /* LaunchScreen.storyboard */,
 				2B0A9D3C2A7B0C7200D76596 /* Info.plist */,
+				2B602AFC2A7C9D3900166F6F /* WeatherModelClass.swift */,
 			);
 			path = "Weather App";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0A9D332A7B0C7000D76596 /* DetailsViewController.swift in Sources */,
+				2B602AFD2A7C9D3900166F6F /* WeatherModelClass.swift in Sources */,
 				2B0A9D2F2A7B0C7000D76596 /* AppDelegate.swift in Sources */,
 				2B0A9D312A7B0C7000D76596 /* SceneDelegate.swift in Sources */,
+				2B602B012A7CA68C00166F6F /* CitiesHistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
